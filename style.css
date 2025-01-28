@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+.container{
+    width: 400px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.calculation{
+    display: flex;
+    flex-direction: column;
+}
+.calculationTitle{
+    text-align: center;
+}
+.calculationButton{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.button{
+    color: white;
+    padding: 10px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button:hover{
+    background-color: #45a049;
+}
